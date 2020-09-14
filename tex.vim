@@ -4,7 +4,8 @@ syn match texTextMathShift /\$/
 syn match texDispMathShift /\$\$/
 syn match texScriptOps     /\^\|_/
 syn match texTie           /\~/
-syn match texArg           /#[1-9]/
+syn match texArg           /#[#1-9]/
+syn match texArg           /#{/me=e-1
 syn match texAlignTab      /&/
 syn match texHyphen        /-/
 syn match texEndash        /--/
