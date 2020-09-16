@@ -7,7 +7,7 @@ syn match texTie           /\~/
 syn match texArg           /#[#1-9]/
 syn match texArg           /#{/me=e-1
 syn match texAlignTab      /&/
-syn match texHyphen        /-/
+" syn match texHyphen        /-/
 syn match texEndash        /--/
 syn match texEmdash        /---/
 syn match texGroup         /{\|}/
@@ -45,7 +45,6 @@ hi def link texScriptOps Operator
 hi def link texTie Operator
 hi def link texArg Operator
 hi def link texAlignTab Operator
-hi def link texHyphen Normal
 hi def link texEnDash Operator
 hi def link texEmDash Operator
 hi def link texGroup Delimiter 
