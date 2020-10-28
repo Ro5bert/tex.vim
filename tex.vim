@@ -27,6 +27,7 @@ syn match texGroup         /{\|}/
 " @ is usually catcode 11 (letter) when it appears in command names.
 syn match texCommand /\\[a-zA-Z@]\+/
 syn match texCommand /\\[^a-zA-Z@]/
+syn match texCommand /\\\^\^[0-9a-f]\{2}\|\\\^\^./ contains=texUpUpChar
 
 syn match texUpUpChar /\^\^[0-9a-f]\{2}\|\^\^./
 
